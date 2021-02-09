@@ -1,0 +1,343 @@
+@font-face {
+    font-family: Heimdal;
+    src: url("./fonts/Heimdal.ttf");
+}
+*{
+    background: #01012B;
+}
+body.main {
+    background: #01012B;
+}
+body {
+    background: #01012B;
+}
+.bgcolor {
+    background: #01012B;
+}
+.nav-item {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 1.6em;
+
+}
+.nav-link {
+    margin-left: 30px;
+}
+a#color-nav {
+    color: #05D9E8;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+
+
+a#nav-head.navbar-brand {
+    font-family: "Heimdal";
+    color: #05D9E8;
+    font-size: 1.9em;
+    position: relative;
+
+}
+#login .container #login-row #login-column #login-box {
+    margin-top: 30px;
+    margin-bottom: 100px;
+    max-width: 600px;
+    height: 480px;
+    border: 7px solid #FF2A6D;
+    background-color: #01012B;
+    color: #05D9E8;
+    font-family: 'Montserrat', sans-serif;
+}
+#login .container #login-row #login-column #login-box #login-form {
+    padding: 20px;
+}
+#login .container #login-row #login-column #login-box #login-form #register-link {
+    margin-top: 25px;
+}
+#username-box {
+    margin-top: 100px;
+}
+#button-login{
+    background-color: #FF2A6D;
+    color: #000000;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    border: none;
+    box-shadow: 1px 2px 3px rgba(0,0,0,0.6);
+    padding: 10px 20px;
+}
+#button-pos {
+    text-align: center;
+    margin-top: 35px;
+    padding-bottom: 0px;
+}
+h3.text-center.text-info {
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+    top: 50px;
+}
+div#login {
+    background: #01012B;
+}
+#username, #password {
+    background-color: #005678;
+    color: #05D9E8;
+    border: none;
+}
+#signup-box {
+    margin-top: 30px;
+    margin-bottom: 100px;
+    max-width: 600px;
+    height: 580px;
+    border: 7px solid #FF2A6D;
+    background-color: #01012B;
+    color: #05D9E8;
+    font-family: 'Montserrat', sans-serif;
+}
+a.signup-info {
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+    top: 40px;
+
+    color: #05D9E8;
+
+}
+div.badge.badge-primary.text-wrap {
+
+    background-color: #FF2A6D;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 1em;
+    border-radius: unset;
+    transform: skew(-10deg);
+    margin-top: 120px;
+    position: relative;
+    left: 70px;
+
+    padding: 0px 60px;
+    padding-bottom: 30px;
+
+
+
+}
+.image {
+    display: none;
+}
+.about {
+    background-color: #FF2A6D;
+    transform: skew(10deg);
+
+}
+.heading {
+    background-color: #FF2A6D;
+    transform: skew(10deg);
+    margin: 20px 0px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 1.5em;
+    text-align: center;
+}
+#login .container #login-row #login-column #poll-box {
+    margin-top: 30px;
+    margin-bottom: 100px;
+    max-width: 600px;
+    height: 500px;
+    border: 7px solid #FF2A6D;
+    background-color: #01012B;
+    color: #05D9E8;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Mobile style */
+@media screen and (max-width: 714px){
+    div.badge.badge-primary.text-wrap {
+        left: 40px;
+    }
+
+}
+.const {
+    color: #FF2A6D;
+    text-transform: none;
+    text-align: center;
+    width: 60%;
+    margin: auto;
+    position: relative;
+    top: 150px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+
+}
+/* Footer Style */
+
+.full {
+    width: 100%;
+}
+.gap {
+	height: 30px;
+	width: 100%;
+	clear: both;
+	display: block;
+}
+.footer {
+	background: #005678;
+	height: auto;
+	padding-bottom: 30px;
+	position: relative;
+    width: 100%;
+    margin-top: 0px;
+
+}
+.footer p {
+	margin: 0;
+}
+.footer img {
+	max-width: 100%;
+}
+.footer h3 {
+	color: #05D9E8;
+	font-size: 1.7em;
+	font-weight: 600;
+	line-height: 27px;
+	padding: 40px 0 0px;
+	text-transform: uppercase;
+    margin-bottom: 15px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+
+.footer h4 {
+
+	font-size: 3em;
+	font-weight: 600;
+	line-height: 38px;
+	padding: 40px 0 10px;
+	font-family: "Heimdal";
+    color: #05D9E8;
+}
+
+.footer ul {
+	font-size: 13px;
+	list-style-type: none;
+	margin-left: 0;
+	padding-left: 0;
+	margin-top: 0px;
+	color: #7F8C8D;
+  padding: 0 0 8px 0;
+}
+
+#button-email{
+    background-color: #FF2A6D;
+    color: #000000;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    border: none;
+    box-shadow: 1px 2px 3px rgba(0,0,0,0.6);
+    padding: 10px 20px;
+    margin-left: 10px;
+    margin-top: 50px;
+
+
+}
+.footer ul li a {
+	padding: 0 0 12px 0;
+	display: block;
+}
+
+.footer a {
+	color: #FF2A6D;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+
+.footer p {
+    color: white;
+    font-weight: lighter;
+    font-size: 1em;
+}
+
+.footer a:hover {
+	text-decoration:none;
+    font-weight: bold;
+}
+.supportLi h4 {
+	font-size: 3em;
+	font-weight: lighter;
+	line-height: normal;
+	margin-bottom: 0 !important;
+	padding-bottom: 0;
+}
+
+.bg-gray {
+	background-image: -moz-linear-gradient(center bottom, #BBBBBB 0%, #F0F0F0 100%);
+	box-shadow: 0 1px 0 #B4B3B3;
+}
+
+.footer a {
+	color: #78828D
+}
+
+.footer-bottom {
+  margin-top: 2em;
+	border-top: 1px solid #DDDDDD;
+	padding-top: 20px;
+	padding-bottom: 10px;
+}
+.footer-bottom p.pull-left {
+	padding-top: 6px;
+  font-size: 0.75em
+}
+div.footer-bottom, div.col-lg-6.col-md-6.col-sm-6.col-xs-6,footer h4,
+ footer div.col-lg-3.col-sm-2.col-xs-3,footer h3, footer ul
+ , footer a, footer p, footer div.row {
+    background-color: #005678;
+}
+.copyright, p.copyright {
+    background-color: #005678;
+    color: #05D9E8;
+}
+
+#login-box.col-md-12 {
+    position: relative;
+
+}
+
+
+
+
+
+
+/* Desktop style */
+@media screen and (min-width: 992px){
+    a#color-nav:hover {
+        text-decoration: underline;
+        text-decoration-color: #FF2A6D;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 400;
+
+    }
+
+    div#login-column.col-md-6 {
+        max-width: 400px;
+    }
+    div.badge.badge-primary.text-wrap {
+        font-size: 1.5em;
+    }
+    a#nav-head.navbar-brand {
+        font-family: "Heimdal";
+        color: #05D9E8;
+        font-size: 2.5em;
+    }
+
+}
+
+/* Bug fix for email button in smaller screens */
+@media screen and (max-width: 575px) {
+    #button-email {
+        margin-top: 0px;
+    }
+    .footer {
+        text-align: center;
+    }
+}
