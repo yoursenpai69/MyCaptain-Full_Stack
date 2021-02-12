@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TO DO LIST</title>
+</head>
+    <body>
+         <!-- TO DO LIST array -->
+        <script type="text/javascript">
+            let listItem = ['Get up early', 'Get ready'];
+        </script>
+        <script type="text/javascript">
+            function newElement() {
+                let tempItem = document.getElementById('myInput').value;
+                listItem.push(tempItem);
+                displayList(tempItem);
+                document.getElementById('myInput').value = '';
+
+            }
+            function removeAll() {
+                
+                listItem = [];
+                let temp = document.getElementById('display')
+                listItem.forEach(displayList);
+                
+            } 
+        </script>
+        
+        <div class="header">
+        <h2 style="margin:5px">To Do List</h2>
+        <input type="text" id="myInput" placeholder="Task name...">
+        <span onclick="newElement()" class="addBtn">Add</span> <br><br>
+        <button type="button" id="clear-list" onclick="removeAll()">Clear Items</button>
+        </div>
+        <div id="display">
+
+            <ul id="myUl">
+                <script type="text/javascript">
+                    listItem.forEach(displayList);
+                    
+                    function displayList (item) {
+                        document.getElementById('display').innerHTML += "<li>" + item + "</li>"
+                    }
+                </script>
+            </ul>
+        </div>
+        
+        <!-- Adding stuff to the list -->
+        
+        
+
+        
+
+            
+</body>
+</html>
