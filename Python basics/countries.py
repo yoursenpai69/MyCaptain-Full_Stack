@@ -7,4 +7,5 @@ class Countries(enum.Enum):
     Andorra = 376
     Angola = 244
 user_input = input("Member name: ")
+print("Member name: ",Countries[user_input].name)
 print("Member value: ",Countries[user_input].value)
